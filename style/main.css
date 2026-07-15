@@ -13,6 +13,11 @@ html, body {
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
+body.show-tigers {
+  background-image: url(../img/krcs.png);
+  background-repeat: repeat;
+  background-size: 256px; }
+
 .heading {
   display: flex;
   align-items: center;

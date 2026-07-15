@@ -19,14 +19,14 @@
     <div class="heading">
       <div class="title-group">
         <h1 class="title">GetKRCS</h1>
-        <img class="title-logo" src="img/krcs.png" alt="KRCS Tigers" onclick="this.classList.remove('bounce');void this.offsetWidth;this.classList.add('bounce');document.body.style.background='url(img/krcs.png)';">
+        <img class="title-logo" src="img/krcs.png" alt="KRCS Tigers" onclick="this.classList.remove('bounce');void this.offsetWidth;this.classList.add('bounce');document.body.classList.toggle('show-tigers');">
       </div>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
       </div>
     </div>
-    <p class="game-intro">Combine other high schools to reach the <span onclick="document.body.style.background='url(img/krcs.png)';">almighty <strong>KRCS Tigers!</strong></span></p>
+    <p class="game-intro">Combine other high schools to reach the <span onclick="document.body.classList.toggle('show-tigers');">almighty <strong>KRCS Tigers!</strong></span></p>
 
     <div class="game-container">
       <div class="game-message">
